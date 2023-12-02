@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <script>
+        swal({
+            title: 'Error!',
+            text: 'An error occurred while sending your message. Please try again later.',
+            icon: 'error',
+            buttons: {
+                confirm: {
+                    text: 'OK',
+                },
+            },
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <script>
+        swal({
+            title: 'Success!',
+            text: 'Your message has been sent successfully.',
+            icon: 'success',
+            buttons: {
+                confirm: {
+                    text: 'OK',
+                },
+            },
+        });
+    </script>
+{% endblock %}
