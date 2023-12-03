@@ -21,7 +21,7 @@ def contact_form(request):
         message = request.POST.get('message')
 
         # Replace this with your actual email address
-        to_email = 'your@example.com'
+        to_email = 'lutayisirealex256@gmail.com'
 
         # Construct the email message
         email_message = f"Name: {name}\nEmail: {email}\nSubject: {subject}\n\nMessage:\n{message}"
